@@ -32,4 +32,10 @@ function draw() {
   venoy = venoy-1
   venx=venx+1
 }
-
+function mousePressed(){
+  circle(venox,veny,20,20)
+   circle(venoy,venx,20,0)
+}
+  
+  
+  
